@@ -1,0 +1,83 @@
+body{
+    background-color: #333;
+}
+.menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+}
+.menu-left {
+    font-size: 25px;
+}
+.menu-right {
+    display: flex;
+    gap: 190px; /* Adjust spacing between menu items */
+}
+.menu-left a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.menu-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.menu-right a:hover {
+    color: #f0a500;
+}
+.container {
+    display: flex;
+    height: 100vh;
+}
+.left {
+    width: 30%;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-family: var(--wp--preset--font-family--epilogue);
+    font-size: 23px;
+}
+.right {
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+}
+.image-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allows multiple rows */
+    justify-content: space-around; /* Adds space between images */
+    gap: 10px; /* Space between images */
+}
+.image-item {
+    width: 48%;
+    color: white;
+    text-align: left;
+}
+.image-item img {
+    width: 100%;
+    height: auto;
+}
+a {
+    display: inline-block;
+    margin-top: 5px;
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    
+}
+footer p {
+    margin: 5px 0;
+}
